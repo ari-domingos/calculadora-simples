@@ -1,16 +1,17 @@
 # 🧮 Calculadora Simples (Python)
 
-Uma calculadora simples desenvolvida em **Python**, capaz de realizar as quatro operações matemáticas básicas — **adição, subtração, multiplicação e divisão** — entre dois números inteiros.  
+Uma calculadora simples desenvolvida em **Python**, capaz de realizar as quatro operações matemáticas básicas — **adição, subtração, multiplicação e divisão** — entre dois números inteiros ou decimais.  
 O projeto foi criado com foco em **praticar lógica de programação sequencial e estruturada**.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Soma de dois valores inteiros  
-- Subtração de dois valores inteiros  
-- Multiplicação de dois valores inteiros  
-- Divisão inteira de dois valores inteiros  
+- Soma de dois valores inteiros ou decimais  
+- Subtração de dois valores inteiros ou decimais  
+- Multiplicação de dois valores inteiros ou decimais 
+- Divisão de dois valores inteiros ou decimais
+- Sair do sistema
 - Interface textual simples e limpa no terminal  
 
 ---
@@ -45,19 +46,22 @@ Utiliza:
 ## ⚙️ Exemplo de Uso
 
 ```
-------------------------------------
+====================================
    CALCULADORA SIMPLES (2 VALORES)
-         NÚMEROS INTEIROS
-------------------------------------
-1 - SOMA
-2 - SUBTRAÇÃO
-3 - MULTIPLICAÇÃO
-4 - DIVISÃO
-------------------------------------
+====================================
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão
+
+0 - Sair
+====================================
 Escolha a operação que deseja: 1
 Digite o primeiro valor: 10
-Digite o segundo valor: 5
-A soma dos números 10 e 5 é: 15
+Digite o segundo valor: 5.5
+A soma dos números 10.00 e 5.50 é: 15.50
+--------------------------------------
+Pressione ENTER para voltar ao menu...
 ```
 
 ---
